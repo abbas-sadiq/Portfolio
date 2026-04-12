@@ -17,7 +17,7 @@ import Redis from "../../Assets/TechIcons/Redis.svg";
 import Docker from "../../Assets/TechIcons/Docker.svg";
 import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
-import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
+import Kubernetes from "../../Assets/TechIcons/Kubernates.svg";
 import Redux from "../../Assets/TechIcons/Redux.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import MUI from "../../Assets/TechIcons/MUI.svg";
@@ -38,7 +38,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Typescript} alt="typescript" />
-        <div className="tech-icons-text">Javascript</div>
+        <div className="tech-icons-text">Typescript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Go} alt="go" />
@@ -86,7 +86,7 @@ function Techstack() {
         <div className="tech-icons-text">Docker</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Kubernates} alt="kubernetes" />
+        <img src={Kubernetes} alt="kubernetes" />
         <div className="tech-icons-text">Kubernetes</div>
       </Col>
 
