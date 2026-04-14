@@ -3,18 +3,15 @@ import { SiNextdotjs } from "react-icons/si";
 import AWS from "../../Assets/TechIcons/AWS.svg";
 import Docker from "../../Assets/TechIcons/Docker.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
-import HaskellIcon from "../../Assets/TechIcons/Haskell.svg";
 import Java from "../../Assets/TechIcons/Java.svg";
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
 import Kafka from "../../Assets/TechIcons/Kafka.svg";
 import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
 import Mongo from "../../Assets/TechIcons/Mongo.svg";
-import MUI from "../../Assets/TechIcons/MUI.svg";
 import Node from "../../Assets/TechIcons/Node.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
 import ReactIcon from "../../Assets/TechIcons/React.svg";
-import Redis from "../../Assets/TechIcons/Redis.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import Typescript from "../../Assets/TechIcons/Typescript.svg";
@@ -26,6 +23,10 @@ function Techstack() {
         <img src={C} alt="C++" />
         <div className="tech-icons-text">C++</div>
       </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Java} alt="haskell" />
+        <div className="tech-icons-text">Java</div>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Javascript} alt="javascript" />
         <div className="tech-icons-text">Javascript</div>
@@ -71,10 +72,10 @@ function Techstack() {
         <img src={Firebase} alt="firebase" />
         <div className="tech-icons-text">Firebase</div>
       </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={Redis} alt="redis" />
         <div className="tech-icons-text">Redis</div>
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <img src={Docker} alt="docker" />
         <div className="tech-icons-text">Docker</div>
@@ -93,24 +94,22 @@ function Techstack() {
         <img src={Python} alt="Python" />
         <div className="tech-icons-text">Python</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Java} alt="haskell" />
-        <div className="tech-icons-text">Java</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      
+ 
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={HaskellIcon} alt="haskell" />
         <div className="tech-icons-text">Haskell</div>
-      </Col>
+      </Col> */}
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={Tailwind} alt="tailwind" />
         <div className="tech-icons-text">Tailwind CSS</div>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={MUI} alt="mui" />
         <div className="tech-icons-text">Material UI</div>
-      </Col>
+      </Col> */}
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={Postman} alt="Postman" />
